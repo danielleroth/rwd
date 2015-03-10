@@ -1,4 +1,4 @@
-/* GLOBAL */
+ GLOBAL */
 
 body {
 	background: url(../img/bg2.jpg);
@@ -14,9 +14,31 @@ img {
 }
 
 nav li {
+	list-style: none;
+	display: inline-block;
+}
+
+/* Layout */
+.container {
+	width: 95%;
+	margin: 0 auto;
+	background: teal;
+}
+
+article section {
+	width: 50%;
+	float: left;
+}
+
+iframe, img {
+	width: 100%;
+	max-width: 100%;
+}
+
+@media {
 	
 }
 
 /* make favicon 260px 260px in photoshop
 realfavicongenerator.net
- */
+ 
