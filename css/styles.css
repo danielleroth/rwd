@@ -4,10 +4,13 @@
 	width: 100%;
 }
 
+.container {
+	margin: 10%;
+}
+
 
 img {
 	max-width: 50%;
-	margin: 20px 20px;
 }
 
 nav li {
@@ -74,13 +77,11 @@ section {}
 
 	section h1 {
 		text-transform: uppercase;
-		color: orange;
 	}
 }
 
 section {
 	text-align: left;
-	margin: 50px 50px;
 }
 
 
