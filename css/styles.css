@@ -59,11 +59,10 @@ iframe, img {
 img {
 	width: 40%;
 	float: left;
-	text-align: center;
-	margin: 10px 10px;
-	height: 400px;
-	width: 300px;	
+	margin: 40px 40px;
+	height: 40%;
 }
+
 
 .container {
 	text-align: center;
@@ -103,9 +102,7 @@ section {
 }
 
 
-#contact {
-	top-padding: 400px;
-}
+
 
 
 /* make favicon 260px 260px in photoshop
