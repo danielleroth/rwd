@@ -9,13 +9,19 @@
 }
 
 
-img {
-	max-width: 50%;
-}
-
 nav li {
 	list-style: none;
 	display: inline-block;
+	bottom-margin: 60px;
+	padding: 10px 10px;
+}
+
+nav a:hover {
+	background: #2F2F31;
+	color: #FFF;
+	padding: 10px 10px;
+	border-radius: 5px;
+	bottom-margin: 60px;
 }
 
 a {
@@ -35,11 +41,13 @@ body {
 
 h1 {
 	text-transform: uppercase;
+	font-size: 8em;
 }
 
 article section {
 	width: 50%;
 	float: left;
+	padding: 10%;
 }
 
 iframe, img {
